@@ -1,0 +1,15 @@
+﻿{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<script type="text/javascript" src="{{_rel}}styles/docfx.vendor.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/main.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/prettify.js"></script>
+<script>
+	$(window).load(function(){
+	     $("pre .lang-c\\#").addClass("prettyprint");
+         $("pre .lang-json").addClass("prettyprint");
+		 $("pre .lang-java").addClass("prettyprint");
+		 $("pre .lang-javascript").addClass("prettyprint");
+	     prettyPrint();
+	})
+</script>
