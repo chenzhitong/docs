@@ -1,25 +1,25 @@
-- name: 介绍
-  href: index.md 
-- name: 开始学习
+- name: Home
+  href: index.md
+- name: Getting learning
   href: getting-started.md
-- name: 白皮书
+- name: white-paper
   href: white-paper.md
-- name: 小蚁节点
+- name: AntShares node
   href: node/introduction.md
   items:
-    - name: 介绍
+    - name: Introduction
       href: node/introduction.md
-    - name: 如何安装
+    - name: Installation
       href: node/setup.md
-    - name: 客户端使用说明
+    - name: Graphical User Interface
       href: node/gui.md
-    - name: 测试网
+    - name: Test network
       href: node/testnet.md
-    - name: CLI命令参考
+    - name: CLI command reference
       href: node/cli.md
-    - name: 私链搭建
+    - name: Private chain
       href: node/private-chain.md
-    - name: API参考
+    - name: API reference
       href: node/API.md
       items:
       - name: getbalance
@@ -44,43 +44,43 @@
         href: node/api/sendrawtransaction.md
       - name: sendtoaddress
         href: node/api/sendtoaddress.md
-    - name: 网络协议
+    - name: network protocol
       href: node/network-protocol.md
-- name: 智能合约
+- name: Smart contract
   href: sc/introduction.md
   items:
-    - name: 介绍
+    - name: Introduction
       href: sc/introduction.md
-    - name: 如何开始
+    - name: Getting started
       href: sc/getting-started.md
-    - name: 教程
+    - name: Tutorial
       href: sc/tutorial.md
-      items: 
-      - name: 基础知识
+      items:
+      - name: Basics
         href: sc/tutorial.md
       - name: Hello World
         href: sc/tutorial/HelloWorld.md
-      - name: Lock（锁仓合约）
+      - name: Lock (lock)
         href: sc/tutorial/Lock.md
-      - name: Domain（域名系统）
+      - name: Domain (Domain Name System)
         href: sc/tutorial/Domain.md
-      - name: 合约调用
+      - name: Contract call
         href: sc/tutorial/call.md
-    - name: 测试
+    - name: Test
       href: sc/test.md
-    - name: 白皮书
+    - name: White-paper
       href: sc/white-paper.md
-    - name: API参考
+    - name: API reference
       href: sc/api.md
-      items: 
+      items:
       - name: AntShares
-        href: sc/api/AntShares.md
+        href: sc/api/antShares.md
       - name: System
-        href: sc/api/System.md
-    - name: 框架
+        href: sc/api/system.md
+    - name: Framework
       href: sc/fw.md
-      items: 
-      - name: .net框架
+      items:
+      - name: .NET framework
         href: sc/fw/dotnet.md
         items:
           - name: AntShares

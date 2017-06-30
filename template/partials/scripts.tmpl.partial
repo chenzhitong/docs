@@ -12,4 +12,18 @@
 		 $("pre .lang-javascript").addClass("prettyprint");
 	     prettyPrint();
 	})
+	function language(lang)
+    {
+		var rgExp = /\w{2}-\w{2}/;
+		if(lang.indexOf("zh-cn") >= 0)
+		{
+			location.href = location.href.replace(rgExp, "zh-cn");
+			return;
+		}
+		if(lang.indexOf("en-us") >= 0)
+		{
+			location.href = location.href.replace(rgExp, "en-us");
+			return;
+		}
+    }
 </script>

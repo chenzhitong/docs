@@ -23,7 +23,7 @@
         {{#items}}
           <li class="{{#active}}active{{/active}}">
             {{#href}}
-            <a href="{{href}}" title="{{name}}" class="{{#active}}active{{/active}}">{{name}}</a>
+            <a onclick="language('{{href}}')" title="{{name}}" class="{{#active}}active{{/active}}">{{name}}</a>
             {{/href}}
             {{^href}}
             <a class="{{#active}}active{{/active}}">{{{name}}}</a>

@@ -1,5 +1,8 @@
 - name: 官网
   href: http://www.antshares.org
-- name: 文档
-  href: document/
-  homepage: document/index.md
+- name: 中文
+  href: zh-cn/
+  homepage: zh-cn/index.md
+- name: English
+  href: en-us/
+  homepage: en-us/index.md
