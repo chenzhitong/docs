@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - name: 官网
   href: http://www.antshares.org
 - name: 中文
@@ -6,3 +7,19 @@
 - name: English
   href: en-us/
   homepage: en-us/index.md
+=======
+- name: 中文
+  href: zh-cn/
+- name: English
+  href: en-us/
+- name: Español
+  href: es-es/
+- name: 日本語
+  href: ja-jp/
+- name: 한국어
+  href: ko-kr/
+- name: Deutsch
+  href: de-de/
+- name: Nederlandse
+  href: nl-nl/
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # AntShares smart contract tutorial
 
 After reading the previous tutorials, you should now be able to use C# in Visual Studio 2015 to create a smart contract project. Here we will discuss how smart contracts are executed on the AVM (AntShares virtual machine).
+=======
+# NEO smart contract tutorial
+
+After reading the previous tutorials, you should now be able to use C# in Visual Studio 2015 to create a smart contract project. Here we will discuss how smart contracts are executed on the NeoVM (Neo Virtual Machine).
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 ## Smart contract triggers
 
@@ -27,7 +33,11 @@ public class Contract1: FunctionCode
 {
     public static void Main ()// Note that the main method to capitalize
     {
+<<<<<<< HEAD
     // The Smart Contract inherited from FunctionCode can be compiled and posted to the block chain for use by other users
+=======
+        // The Smart Contract inherited from FunctionCode can be compiled and posted to the block chain for use by other users
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
     }
 }
 ```
@@ -45,22 +55,38 @@ public class Contract1: VerificationCode
 {
     public static bool Verify ()
     {
+<<<<<<< HEAD
     Return true;
+=======
+        return true;
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
     }
 }
 ```
 
+<<<<<<< HEAD
 ## AVM virtual machine
 
 AVM is the virtual machine that executes the AntShares smart contract code. We are talking about the concept of virtual machine in the narrow sense, not in reference to operating systems or programs that can simulate them such as Vmware or Hypter-V.
+=======
+## NeoVM
+
+NeoVM is the virtual machine that executes the NEO smart contract code. We are talking about the concept of virtual machine in the narrow sense, not in reference to operating systems or programs that can simulate them such as Vmware or Hypter-V.
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 For example, in the java JVM or. Net CLR, source code will be compiled into the relevant bytecode, and then run on the corresponding virtual machine. JVM or CLR will run the bytecode which is similar to running instructions on a real physical machine. Notably, the corresponding binary instructions are still run on a physical machine. The physical machine fetches instructions from memory, transfers it to the CPU via the bus, then decodes, executes, and stores the result.
 
 ### Virtual machine architecture
 
+<<<<<<< HEAD
    ![](http://docs.antshares.org/images/2017-05-15_11-28-29.jpg)
 
 The above diagram is the system architecture diagram of the small ant virtual machine (AVM), where the deployment in the dashed box is the core of the virtual machine.
+=======
+   ![](/assets/neo-vm.jpg)
+
+The above diagram is the system architecture diagram of the Neo Virtual Machine (NeoVM), where the deployment in the dashed box is the core of the virtual machine.
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 #### Execute engine
 
@@ -82,7 +108,11 @@ In addition, the interoperable service layer also provides a persistent storage 
 
 A smart contract can programmed to charge a certain fee, divided into deployment costs and implementation costs.
 
+<<<<<<< HEAD
 Deployment costs refer to the need for a developer to deploy a smart contract to the chain chain to pay a fee for the block chain system (currently 500 small coins). With execution costs, the user will pay a fee for the execution of the smart contract (for free).
+=======
+Deployment costs refer to the need for a developer to deploy a smart contract to the chain to pay a fee for the block chain system (currently 500 GAS). With execution costs, the user will pay a fee for the execution of the smart contract (for free).
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 ## A simple smart contract
 
@@ -91,7 +121,11 @@ Here are some simple inheritance from VerificationCode's smart contract
 ```c#
 public static bool Verify ()
 {
+<<<<<<< HEAD
 Return true;
+=======
+    return true;
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 }
 ```
 
@@ -102,7 +136,11 @@ There is a function of deleting an asset in the client's e-wallet client. When y
 ```c#
 public static bool Verify ()
 {
+<<<<<<< HEAD
 Return false
+=======
+    return false
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 }
 ```
 

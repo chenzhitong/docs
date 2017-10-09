@@ -1,8 +1,14 @@
 # API Reference
 
+<<<<<<< HEAD
 Each node in the AntSharesCore-CLI provides an API interface for obtaining block-chain data from a node, making it easy to develop block-chain applications. The interface is provided via [JSON-RPC](http://wiki.geekdream.com/Specification/json-rpc_2.0.html) and the underlying protocl uses HTTP/HTTPS for communication. To start a node that provides an RPC service, run the following command:
 
 `dotnet AntSharesDaemon.dll /rpc`
+=======
+Each node in the Neo-CLI provides an API interface for obtaining blockchain data from a node, making it easy to develop blockchain applications. The interface is provided via [JSON-RPC](http://wiki.geekdream.com/Specification/json-rpc_2.0.html), and the underlying protocol uses HTTP/HTTPS for communication. To start a node that provides an RPC service, run the following command:
+
+`dotnet neo-cli.dll /rpc`
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 To access the RPC server via HTTPS, you need to modify the configuration file config.json before starting the node and set the domain name, certificate, and password:
 
@@ -21,7 +27,11 @@ To access the RPC server via HTTPS, you need to modify the configuration file co
 
 After the JSON-RPC server starts, it will monitor the following ports, corresponding to the Main and Test nets:
 
+<<<<<<< HEAD
 P2P and WebSocket information see [Node/Introduction](introduction.md)。
+=======
+For P2P and WebSocket information see [Node/Introduction](introduction.md).
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 |                | （Main Net） | （Test Net） |
 | -------------- | ------------ | ------------- |
@@ -39,10 +49,17 @@ P2P and WebSocket information see [Node/Introduction](introduction.md)。
 | [getblockcount](api/getblockcount.md)    |                                         | Gets the number of blocks in the main chain                 |          |
 | [getblockhash](api/getblockhash.md)      | \<index>                                | Returns the hash value of the corresponding block based on the specified index         |          |
 | [getconnectioncount](api/getconnectioncount.md) |                                         | Gets the current number of connections for the node                 |          |
+<<<<<<< HEAD
 | [getrawmempool](api/getrawmempool.md)    |                                         | Get a list of unrecognized transactions in memory            |          |
 | [getrawtransaction](api/getrawtransaction.md) | \<txid> [verbose=0]                     | Returns the corresponding transaction information based on the specified hash value         |          |
 | [gettxout](api/gettxout.md)              | \<txid> \<n>                            | Returns the corresponding transaction output (change) information based on the specified hash and index |          |
 | [sendrawtransaction](api/sendrawtransaction.md) | \<hex>                                  | Broadcast transmission                       |          |
+=======
+| [getrawmempool](api/getrawmempool.md)    |                                         | Get a list of unconfirmed transactions in memory            |          |
+| [getrawtransaction](api/getrawtransaction.md) | \<txid> [verbose=0]                     | Returns the corresponding transaction information based on the specified hash value         |          |
+| [gettxout](api/gettxout.md)              | \<txid> \<n>                            | Returns the corresponding transaction output (change) information based on the specified hash and index |          |
+| [sendrawtransaction](api/sendrawtransaction.md) | \<hex>                                  | Broadcast a transaction over the network. See the [network protocol](network-protocol.md) documentation.                       |          |
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 | [sendtoaddress](api/sendtoaddress.md)    | \<asset_id> \<address> \<value> [fee=0] | Transfer to specified address                     | Need to open the wallet   |
 | submitblock                              | \<hex>                                  | Submit new blocks                      | Needs to be a consensus node |
 
@@ -103,11 +120,19 @@ After sending the request, you will get the following response：
 
 ## Test tools
 
+<<<<<<< HEAD
 You can use the Chrome extension in Postman to facilitate the test (Installation of the Chrome extension requires a scientific Internet), the following is a test screenshot:
 
 ![image](http://docs.antshares.org/images/2017-05-17_17-06-20.jpg)
 
 ![image](http://docs.antshares.org/images/2017-05-17_16-55-58.jpg)
+=======
+You can use the Chrome extension in Postman to facilitate the test (Installation of the Chrome extension requires Internet connection), the following is a test screenshot:
+
+![image](/zh-cn/node/assets/api_2.jpg)
+
+![image](/assets/api_3.jpg)
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 ## Other
 

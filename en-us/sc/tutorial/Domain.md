@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Smart contract example - dos (domain name system)
+=======
+# Smart Contract Example - Domain (Domain Name System)
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 ```c#
 public class Domain : FunctionCode
@@ -55,8 +59,16 @@ public class Domain : FunctionCode
 }
 ```
 
+<<<<<<< HEAD
 The contract implements a domain name transfer system, where the domain name is the data in the blockchain system and is not the real domain name on the Internet.
 
 The above code to achieve the domain name of the query, registration, transfer, delete.
 
 For details, refer to [Storage Class](../fw/dotnet/AntShares/Storage.md).
+=======
+The contract implements a domain name system, where the domain names points to data on the blockchain. It is not the real domain names on the Internet.
+
+The code above implements querying, registration, transfer and deletion of domain names.
+
+For details, refer to [Storage](../fw/dotnet/neo/Storage.md).
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359

@@ -1,10 +1,16 @@
 - name: Home
   href: index.md
+<<<<<<< HEAD
 - name: Getting learning
   href: getting-started.md
 - name: white-paper
   href: white-paper.md
 - name: AntShares node
+=======
+- name: Getting Started
+  href: getting-started.md
+- name: NEO Node
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
   href: node/introduction.md
   items:
     - name: Introduction
@@ -13,6 +19,7 @@
       href: node/setup.md
     - name: Graphical User Interface
       href: node/gui.md
+<<<<<<< HEAD
     - name: Test network
       href: node/testnet.md
     - name: CLI command reference
@@ -20,6 +27,15 @@
     - name: Private chain
       href: node/private-chain.md
     - name: API reference
+=======
+    - name: Test Network
+      href: node/testnet.md
+    - name: CLI Reference
+      href: node/cli.md
+    - name: Private Chain
+      href: node/private-chain.md
+    - name: API Reference
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
       href: node/API.md
       items:
       - name: getbalance
@@ -44,15 +60,30 @@
         href: node/api/sendrawtransaction.md
       - name: sendtoaddress
         href: node/api/sendtoaddress.md
+<<<<<<< HEAD
     - name: network protocol
       href: node/network-protocol.md
 - name: Smart contract
+=======
+    - name: Network Protocol
+      href: node/network-protocol.md
+    - name: Consensus
+      href: node/consensus.md
+- name: Smart Contract
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
   href: sc/introduction.md
   items:
     - name: Introduction
       href: sc/introduction.md
+<<<<<<< HEAD
     - name: Getting started
       href: sc/getting-started.md
+=======
+    - name: Getting Started (C#)
+      href: sc/getting-started-csharp.md
+    - name: Getting Started (Java)
+      href: sc/getting-started-java.md
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
     - name: Tutorial
       href: sc/tutorial.md
       items:
@@ -60,6 +91,7 @@
         href: sc/tutorial.md
       - name: Hello World
         href: sc/tutorial/HelloWorld.md
+<<<<<<< HEAD
       - name: Lock (lock)
         href: sc/tutorial/Lock.md
       - name: Domain (Domain Name System)
@@ -75,6 +107,31 @@
       items:
       - name: AntShares
         href: sc/api/antShares.md
+=======
+      - name: Lock Contract
+        href: sc/tutorial/Lock.md
+      - name: Domain (Domain Name System)
+        href: sc/tutorial/Domain.md
+      - name: Smart Contract Parameters and Return Values
+        href: sc/tutorial/Parameter.md
+      - name: Contract Authentication Tutorial
+        href: sc/tutorial/verify.md
+      - name: Deploying a Lock Contract
+        href: sc/tutorial/Lock2.md
+      - name: Contract Call
+        href: sc/tutorial/call.md
+      - name: Deploying and Invoking
+        href: sc/tutorial/deploy-invoke.md      
+    - name: Test
+      href: sc/test.md
+    - name: Whitepaper
+      href: sc/white-paper.md
+    - name: API Reference
+      href: sc/api.md
+      items:
+      - name: NEO
+        href: sc/api/neo.md
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
       - name: System
         href: sc/api/system.md
     - name: Framework
@@ -83,6 +140,7 @@
       - name: .NET framework
         href: sc/fw/dotnet.md
         items:
+<<<<<<< HEAD
           - name: AntShares
             href: sc/fw/dotnet/AntShares.md
             items:
@@ -110,8 +168,45 @@
               href: sc/fw/dotnet/AntShares/TransactionInput.md
             - name: TransactionOutput
               href: sc/fw/dotnet/AntShares/TransactionOutput.md
+=======
+          - name: NEO
+            href: sc/fw/dotnet/neo.md
+            items:
+            - name: Account
+              href: sc/fw/dotnet/neo/Account.md
+            - name: Asset
+              href: sc/fw/dotnet/neo/Asset.md
+            - name: Block
+              href: sc/fw/dotnet/neo/Block.md
+            - name: Blockchain
+              href: sc/fw/dotnet/neo/Blockchain.md
+            - name: Enrollment
+              href: sc/fw/dotnet/neo/Enrollment.md
+            - name: Header
+              href: sc/fw/dotnet/neo/Header.md
+            - name: Storage
+              href: sc/fw/dotnet/neo/Storage.md
+            - name: StorageContext
+              href: sc/fw/dotnet/neo/StorageContext.md
+            - name: Transaction
+              href: sc/fw/dotnet/neo/Transaction.md
+            - name: TransactionAttribute
+              href: sc/fw/dotnet/neo/TransactionAttribute.md
+            - name: TransactionInput
+              href: sc/fw/dotnet/neo/TransactionInput.md
+            - name: TransactionOutput
+              href: sc/fw/dotnet/neo/TransactionOutput.md
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
           - name: System
             href: sc/fw/dotnet/System.md
             items:
             - name: ExecutionEngine
+<<<<<<< HEAD
               href: sc/fw/dotnet/System/ExecutionEngine.md
+=======
+              href: sc/fw/dotnet/System/ExecutionEngine.md
+    - name: System Fees
+      href: sc/systemfees.md
+- name: Contributors
+  href: contributors.md
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359

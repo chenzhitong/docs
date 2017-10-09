@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Smart contract example - HelloWorld
+=======
+# Smart Contract Example - HelloWorld
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
 
 ```c#
 public class HelloWorld : FunctionCode
@@ -10,6 +14,12 @@ public class HelloWorld : FunctionCode
 }
 ```
 
+<<<<<<< HEAD
 The Storage class is a static class that manipulates the private contract storage zone. The Storage.Put () method allows you to store data in the private storage area in key-value. For details, refer to the [Storage class](../fw/dotnet/AntShares/Storage.md).
 
 Please refer to [Github](https://github.com/AntShares/AntShares.SmartContract.Contracts) for complete code.
+=======
+The Storage class is a static class that manipulates the private contract storage. The `Storage.Put()` method allows you to store data in the private storage area in key-value format. For details, refer to [Storage](../fw/dotnet/neo/Storage.md).
+
+Please refer to [Github](https://github.com/neo-project/examples) for complete examples.
+>>>>>>> e5e43331cd35f87f336ded6b98df4277306e0359
